@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Ecuestacovid19" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kD4-fh-Kih">
+                                <rect key="frame" x="0.0" y="-15" width="414" height="223"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Encuesta Covid 2019" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="awi-Eu-Obf">
+                                        <rect key="frame" x="8" y="110" width="398" height="37"/>
+                                        <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="28"/>
+                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="separatorColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="awi-Eu-Obf" secondAttribute="trailing" constant="8" id="MT4-XK-jsA"/>
+                                    <constraint firstItem="awi-Eu-Obf" firstAttribute="top" secondItem="kD4-fh-Kih" secondAttribute="top" constant="110" id="VFK-8A-0sz"/>
+                                    <constraint firstAttribute="bottom" secondItem="awi-Eu-Obf" secondAttribute="bottom" constant="76" id="rog-zt-meJ"/>
+                                    <constraint firstItem="awi-Eu-Obf" firstAttribute="leading" secondItem="kD4-fh-Kih" secondAttribute="leading" constant="8" id="tum-W8-GXZ"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Información General" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jws-9c-4f0">
+                                <rect key="frame" x="41" y="243" width="210" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="jTR-9Y-UHS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4N3-Li-MUC">
+                                <rect key="frame" x="0.0" y="216" width="414" height="550"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="xqc-K9-7BD">
+                                        <rect key="frame" x="110" y="67" width="131" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <segments>
+                                            <segment title="First"/>
+                                            <segment title="Second"/>
+                                        </segments>
+                                    </segmentedControl>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Jws-9c-4f0" firstAttribute="top" secondItem="kD4-fh-Kih" secondAttribute="bottom" constant="35" id="35K-as-E9k"/>
+                            <constraint firstItem="kD4-fh-Kih" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-15" id="EXn-LG-fIz"/>
+                            <constraint firstItem="4N3-Li-MUC" firstAttribute="leading" secondItem="kD4-fh-Kih" secondAttribute="leading" id="Wlv-OJ-d4B"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4N3-Li-MUC" secondAttribute="bottom" constant="96" id="ZNz-yr-xGO"/>
+                            <constraint firstItem="4N3-Li-MUC" firstAttribute="width" secondItem="kD4-fh-Kih" secondAttribute="width" id="e0S-56-Gsl"/>
+                            <constraint firstItem="4N3-Li-MUC" firstAttribute="top" secondItem="kD4-fh-Kih" secondAttribute="bottom" constant="8" id="fbG-HU-WGy"/>
+                            <constraint firstItem="Jws-9c-4f0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="41" id="hLL-Ud-xUd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jws-9c-4f0" secondAttribute="trailing" constant="163" id="kVX-pj-N7i"/>
+                            <constraint firstItem="kD4-fh-Kih" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="o6b-u2-9XE"/>
+                            <constraint firstItem="kD4-fh-Kih" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rus-hN-QXW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="vwCover" destination="kD4-fh-Kih" id="bOG-4m-4uq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+</document>

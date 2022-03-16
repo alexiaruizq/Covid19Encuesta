@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D3E5B2727D6BFBA00E956E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3E5B2627D6BFBA00E956E7 /* AppDelegate.swift */; };
+		3D3E5B2927D6BFBA00E956E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3E5B2827D6BFBA00E956E7 /* SceneDelegate.swift */; };
+		3D3E5B2B27D6BFBA00E956E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3E5B2A27D6BFBA00E956E7 /* ViewController.swift */; };
+		3D3E5B2E27D6BFBA00E956E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3E5B2C27D6BFBA00E956E7 /* Main.storyboard */; };
+		3D3E5B3027D6BFCB00E956E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3E5B2F27D6BFCB00E956E7 /* Assets.xcassets */; };
+		3D3E5B3327D6BFCC00E956E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3E5B3127D6BFCC00E956E7 /* LaunchScreen.storyboard */; };
+		3D3E5B3E27D6BFCC00E956E7 /* Ecuestacovid19Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3E5B3D27D6BFCC00E956E7 /* Ecuestacovid19Tests.swift */; };
+		3D3E5B4927D6BFCC00E956E7 /* Ecuestacovid19UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3E5B4827D6BFCC00E956E7 /* Ecuestacovid19UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D3E5B3A27D6BFCC00E956E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D3E5B1B27D6BFBA00E956E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D3E5B2227D6BFBA00E956E7;
+			remoteInfo = Ecuestacovid19;
+		};
+		3D3E5B4527D6BFCC00E956E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D3E5B1B27D6BFBA00E956E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D3E5B2227D6BFBA00E956E7;
+			remoteInfo = Ecuestacovid19;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D3E5B2327D6BFBA00E956E7 /* Ecuestacovid19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ecuestacovid19.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3E5B2627D6BFBA00E956E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D3E5B2827D6BFBA00E956E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D3E5B2A27D6BFBA00E956E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D3E5B2D27D6BFBA00E956E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D3E5B2F27D6BFCB00E956E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D3E5B3227D6BFCC00E956E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D3E5B3427D6BFCC00E956E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3E5B3927D6BFCC00E956E7 /* Ecuestacovid19Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ecuestacovid19Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3E5B3D27D6BFCC00E956E7 /* Ecuestacovid19Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ecuestacovid19Tests.swift; sourceTree = "<group>"; };
+		3D3E5B3F27D6BFCC00E956E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3E5B4427D6BFCC00E956E7 /* Ecuestacovid19UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ecuestacovid19UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3E5B4827D6BFCC00E956E7 /* Ecuestacovid19UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ecuestacovid19UITests.swift; sourceTree = "<group>"; };
+		3D3E5B4A27D6BFCC00E956E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D3E5B2027D6BFBA00E956E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3E5B3627D6BFCC00E956E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3E5B4127D6BFCC00E956E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D3E5B1A27D6BFBA00E956E7 = {
+			isa = PBXGroup;
+			children = (
+				3D3E5B2527D6BFBA00E956E7 /* Ecuestacovid19 */,
+				3D3E5B3C27D6BFCC00E956E7 /* Ecuestacovid19Tests */,
+				3D3E5B4727D6BFCC00E956E7 /* Ecuestacovid19UITests */,
+				3D3E5B2427D6BFBA00E956E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D3E5B2427D6BFBA00E956E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D3E5B2327D6BFBA00E956E7 /* Ecuestacovid19.app */,
+				3D3E5B3927D6BFCC00E956E7 /* Ecuestacovid19Tests.xctest */,
+				3D3E5B4427D6BFCC00E956E7 /* Ecuestacovid19UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D3E5B2527D6BFBA00E956E7 /* Ecuestacovid19 */ = {
+			isa = PBXGroup;
+			children = (
+				3D3E5B2627D6BFBA00E956E7 /* AppDelegate.swift */,
+				3D3E5B2827D6BFBA00E956E7 /* SceneDelegate.swift */,
+				3D3E5B2A27D6BFBA00E956E7 /* ViewController.swift */,
+				3D3E5B2C27D6BFBA00E956E7 /* Main.storyboard */,
+				3D3E5B2F27D6BFCB00E956E7 /* Assets.xcassets */,
+				3D3E5B3127D6BFCC00E956E7 /* LaunchScreen.storyboard */,
+				3D3E5B3427D6BFCC00E956E7 /* Info.plist */,
+			);
+			path = Ecuestacovid19;
+			sourceTree = "<group>";
+		};
+		3D3E5B3C27D6BFCC00E956E7 /* Ecuestacovid19Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3D3E5B3D27D6BFCC00E956E7 /* Ecuestacovid19Tests.swift */,
+				3D3E5B3F27D6BFCC00E956E7 /* Info.plist */,
+			);
+			path = Ecuestacovid19Tests;
+			sourceTree = "<group>";
+		};
+		3D3E5B4727D6BFCC00E956E7 /* Ecuestacovid19UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D3E5B4827D6BFCC00E956E7 /* Ecuestacovid19UITests.swift */,
+				3D3E5B4A27D6BFCC00E956E7 /* Info.plist */,
+			);
+			path = Ecuestacovid19UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D3E5B2227D6BFBA00E956E7 /* Ecuestacovid19 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3E5B4D27D6BFCC00E956E7 /* Build configuration list for PBXNativeTarget "Ecuestacovid19" */;
+			buildPhases = (
+				3D3E5B1F27D6BFBA00E956E7 /* Sources */,
+				3D3E5B2027D6BFBA00E956E7 /* Frameworks */,
+				3D3E5B2127D6BFBA00E956E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ecuestacovid19;
+			productName = Ecuestacovid19;
+			productReference = 3D3E5B2327D6BFBA00E956E7 /* Ecuestacovid19.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D3E5B3827D6BFCC00E956E7 /* Ecuestacovid19Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3E5B5027D6BFCC00E956E7 /* Build configuration list for PBXNativeTarget "Ecuestacovid19Tests" */;
+			buildPhases = (
+				3D3E5B3527D6BFCC00E956E7 /* Sources */,
+				3D3E5B3627D6BFCC00E956E7 /* Frameworks */,
+				3D3E5B3727D6BFCC00E956E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D3E5B3B27D6BFCC00E956E7 /* PBXTargetDependency */,
+			);
+			name = Ecuestacovid19Tests;
+			productName = Ecuestacovid19Tests;
+			productReference = 3D3E5B3927D6BFCC00E956E7 /* Ecuestacovid19Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D3E5B4327D6BFCC00E956E7 /* Ecuestacovid19UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3E5B5327D6BFCC00E956E7 /* Build configuration list for PBXNativeTarget "Ecuestacovid19UITests" */;
+			buildPhases = (
+				3D3E5B4027D6BFCC00E956E7 /* Sources */,
+				3D3E5B4127D6BFCC00E956E7 /* Frameworks */,
+				3D3E5B4227D6BFCC00E956E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D3E5B4627D6BFCC00E956E7 /* PBXTargetDependency */,
+			);
+			name = Ecuestacovid19UITests;
+			productName = Ecuestacovid19UITests;
+			productReference = 3D3E5B4427D6BFCC00E956E7 /* Ecuestacovid19UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D3E5B1B27D6BFBA00E956E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Alumno;
+				TargetAttributes = {
+					3D3E5B2227D6BFBA00E956E7 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					3D3E5B3827D6BFCC00E956E7 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3D3E5B2227D6BFBA00E956E7;
+					};
+					3D3E5B4327D6BFCC00E956E7 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3D3E5B2227D6BFBA00E956E7;
+					};
+				};
+			};
+			buildConfigurationList = 3D3E5B1E27D6BFBA00E956E7 /* Build configuration list for PBXProject "Ecuestacovid19" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D3E5B1A27D6BFBA00E956E7;
+			productRefGroup = 3D3E5B2427D6BFBA00E956E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D3E5B2227D6BFBA00E956E7 /* Ecuestacovid19 */,
+				3D3E5B3827D6BFCC00E956E7 /* Ecuestacovid19Tests */,
+				3D3E5B4327D6BFCC00E956E7 /* Ecuestacovid19UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D3E5B2127D6BFBA00E956E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3E5B3327D6BFCC00E956E7 /* LaunchScreen.storyboard in Resources */,
+				3D3E5B3027D6BFCB00E956E7 /* Assets.xcassets in Resources */,
+				3D3E5B2E27D6BFBA00E956E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3E5B3727D6BFCC00E956E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3E5B4227D6BFCC00E956E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D3E5B1F27D6BFBA00E956E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3E5B2B27D6BFBA00E956E7 /* ViewController.swift in Sources */,
+				3D3E5B2727D6BFBA00E956E7 /* AppDelegate.swift in Sources */,
+				3D3E5B2927D6BFBA00E956E7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3E5B3527D6BFCC00E956E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3E5B3E27D6BFCC00E956E7 /* Ecuestacovid19Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3E5B4027D6BFCC00E956E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3E5B4927D6BFCC00E956E7 /* Ecuestacovid19UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D3E5B3B27D6BFCC00E956E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D3E5B2227D6BFBA00E956E7 /* Ecuestacovid19 */;
+			targetProxy = 3D3E5B3A27D6BFCC00E956E7 /* PBXContainerItemProxy */;
+		};
+		3D3E5B4627D6BFCC00E956E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D3E5B2227D6BFBA00E956E7 /* Ecuestacovid19 */;
+			targetProxy = 3D3E5B4527D6BFCC00E956E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D3E5B2C27D6BFBA00E956E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D3E5B2D27D6BFBA00E956E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D3E5B3127D6BFCC00E956E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D3E5B3227D6BFCC00E956E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D3E5B4B27D6BFCC00E956E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D3E5B4C27D6BFCC00E956E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D3E5B4E27D6BFCC00E956E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ecuestacovid19/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.Ecuestacovid19;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D3E5B4F27D6BFCC00E956E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ecuestacovid19/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.Ecuestacovid19;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D3E5B5127D6BFCC00E956E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ecuestacovid19Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.Ecuestacovid19Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ecuestacovid19.app/Ecuestacovid19";
+			};
+			name = Debug;
+		};
+		3D3E5B5227D6BFCC00E956E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ecuestacovid19Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.Ecuestacovid19Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ecuestacovid19.app/Ecuestacovid19";
+			};
+			name = Release;
+		};
+		3D3E5B5427D6BFCC00E956E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ecuestacovid19UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.Ecuestacovid19UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ecuestacovid19;
+			};
+			name = Debug;
+		};
+		3D3E5B5527D6BFCC00E956E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ecuestacovid19UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.Ecuestacovid19UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ecuestacovid19;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D3E5B1E27D6BFBA00E956E7 /* Build configuration list for PBXProject "Ecuestacovid19" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3E5B4B27D6BFCC00E956E7 /* Debug */,
+				3D3E5B4C27D6BFCC00E956E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D3E5B4D27D6BFCC00E956E7 /* Build configuration list for PBXNativeTarget "Ecuestacovid19" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3E5B4E27D6BFCC00E956E7 /* Debug */,
+				3D3E5B4F27D6BFCC00E956E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D3E5B5027D6BFCC00E956E7 /* Build configuration list for PBXNativeTarget "Ecuestacovid19Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3E5B5127D6BFCC00E956E7 /* Debug */,
+				3D3E5B5227D6BFCC00E956E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D3E5B5327D6BFCC00E956E7 /* Build configuration list for PBXNativeTarget "Ecuestacovid19UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3E5B5427D6BFCC00E956E7 /* Debug */,
+				3D3E5B5527D6BFCC00E956E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D3E5B1B27D6BFBA00E956E7 /* Project object */;
+}
